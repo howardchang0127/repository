@@ -1,0 +1,195 @@
+/*{
+    border: 1px solid #000;    
+    margin: 10px;
+    padding: 10px;
+}
+*/
+/*一些基本設定*/
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+p, h1, h2, h3, h4, h5, h6 {letter-spacing: 2px;}
+p{
+    line-height: 1.5;
+    font-family: 'Alef Hebrew', sans-serif;
+}
+
+/*同一層的套用*/
+header h1+p {
+/*    background-color: aqua;*/
+/*    color:black;*/
+    font-size: 10px;
+}
+
+header h1{
+    margin: 0px;
+    padding: 0px:
+}
+
+h1 {  
+    color:blue;
+    font-size:50px;
+}
+/*web的head設定*/
+header {
+    font-size: 8px;
+    color:darkgray;
+}
+
+.featured-image {
+    width: 100%;
+    height:200px;
+    background-position: left;
+    background-image: url(../images/big-sky-.jpg);
+}
+
+nav ul>li {
+    list-style-type:none;
+    list-style-position: inside;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    text-align: center;
+    background-color:blue;
+    position: relative;
+    top:30;
+    left: 0;
+}
+nav a {
+    color:aliceblue;
+    line-height: 30px;
+    text-decoration: none;
+    
+}
+
+nav{
+    font-size: 10px;
+    position: fixed;
+/*    bottom:0;*/
+    top:0;
+    left: 0;
+    background-color: beige;
+}
+
+.articles
+{
+    width: 800px;
+    margin: 0 auto;
+}
+
+article{
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+article:first-child{
+    background-color: bisque;
+    }
+
+/*
+article:nth-child(odd){
+    background-color: bisque;
+}*/
+
+/*
+article:nth-of-type(odd) {
+    background-color:chocolate;
+}
+
+article:nth-of-type(1) {
+    background-color:chocolate;
+}*/
+
+article:not(:first-of-type) {
+/*    width: 400Px;*/
+    width: 100%;
+    display:inline-block;
+    text-decoration: none;
+/*    margin: 10px;*/
+}
+
+
+article img {
+    width:90%;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    font-weight: 800;
+    background-color: aquamarine;
+/*    height: :250px;*/
+/*    padding: 50px;*/
+/*    border: 10px solid #000;*/
+/*    padding-top: 10px;*/
+    padding: :10px 0px 10px 10px;
+/*   上右下左 */
+/*    padding: :10px 60px;*/
+/*   上下 */
+/*    border-left: 5px solid #000;*/
+    box-sizing:border-box;
+/*    margin: 10px;*/
+    margin: 10px 2px;
+/*會用比較大的邊界 or 共用 --margin會折疊一起
+}
+
+*{
+    box-sizing: border-box
+/*套用所有的*/
+/*    display: inline-block;*/
+    text-align: center;
+    overflow: auto;
+    border-radius:50%;
+    float: left;
+}
+
+/*
+.box:first-child{
+/*display: inline-block;*/
+    position:relative;
+    top:30px;
+    left: 50px;
+/*相對移動*/
+}*/
+/*
+
+.dropdown {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background-color: cadetblue;
+    top:50px;
+    left:0px;
+}
+*/
+
+.dropdown2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+/*    background-color: cadetblue;*/
+    top:50px;
+    left:-10px;
+}
+
+.contrainer {
+    background-color:antiquewhite;
+    float:left;
+}
+
+.content {
+    width: 80%;
+    background-color: blueviolet;
+    float:left;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    }
+
+footer {
+width: 100%;
+background-color: crimson;    
+}

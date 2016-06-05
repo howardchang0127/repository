@@ -1,0 +1,156 @@
+/*
+基本元素設定
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (min-width:768px) {}
+
+nav,
+header,
+.container,
+.content,
+aside,
+footer,
+.thumbnail,
+.box {
+    border: 1px solid #444;
+}
+
+nav {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+    background-color: black;
+    color: #fff;
+    border: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*    距離流覽頁籤 0 ,0 */
+}
+
+header {
+    height: 100px;
+    text-align: center;
+    margin-top: 30: px
+}
+
+header h1 {
+    padding-top: 30px;
+}
+
+header p {
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.thumbnail {
+    width: 33.33%;
+    height: 250px;
+    float: left;
+    text-align: center;
+    padding: 5px;
+    /*    margin: 5px;*/
+}
+
+.content {
+    width: 80%;
+    float: left;
+}
+
+aside {
+    float: left;
+    width: 20%;
+}
+
+footer {
+    clear: both;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.box {
+    clear: both;
+    width: 80px;
+    font-size: 14px;
+    padding: 5px;
+    position: fixed;
+    top: 200px;
+    right: 0;
+}
+
+.box .title {
+    padding: 5px;
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+}
+
+.box .icon {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: white;
+    border: 1px solid blue;
+    font: 10px;
+}
+
+.title:hover {
+    background-color: black;
+    color: white;
+}
+
+.title-item {
+    position: absolution;
+    color: black;
+    /*display:none;*/
+}
+
+.title:hover .title-item {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    position: releative;
+    text-align: center;
+}
+
+.menu-item {
+    position: absolution;
+    display: none;
+}
+
+.menu:hover {
+    background-color: #333;
+    color: white;
+}
+
+.menu:hover .menu-item {
+    display: block;
+}
+
+
+p2:after{
+    content: "";
+    clear: both;
+    display: block;
+}
