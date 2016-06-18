@@ -1,0 +1,106 @@
+#slideshow {
+    background-color: black;
+    height: 400px;
+}
+
+.jumbotron {
+    background-size: cover;
+    background-color: black color: white;
+    height: 400px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
+.jumbotron .container {
+    width: 85%;
+}
+
+#background {
+    background-image: url(../images/Pic3.jpg);
+    background-size: cover;
+    height: 450px;
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.thumbnail {
+    border-color: #eee;
+}
+
+#main {
+    width: 80%;
+}
+
+.mycolor {
+    background-color: #333;
+    border-radius: 0px;
+    height: 50px;
+}
+
+.mycolor a {
+    color: white;
+}
+
+#nav {
+    margin: 0;
+    z-index: 1;
+    border: 0px;
+    border-radius: 0;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: inherit;
+}
+
+#nav a {
+    font-size: 13px;
+}
+
+.avatar {}
+
+.thumbnail.avatar {
+    border: none;
+    text-align: center;
+}
+
+.avatar img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.avatar2 img {
+    width: 400px;
+    border-radius: 50%;
+}
+
+[id^=result] {
+    display: none;
+}
+
+#titlea {
+    text-align: center;
+}
+
+#RESUME1 {
+    background-color: #00bdbd;
+    color: #fff;
+    position: relative;
+    padding-top: 85px;
+    padding-bottom: 93px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#aboutme {
+    padding: 50px;
+}
