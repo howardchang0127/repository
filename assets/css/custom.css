@@ -22,7 +22,7 @@
 #background {
     background-image: url(../images/Pic3.jpg);
     background-size: cover;
-    height: 450px;
+    height: 400px;
     color: white;
     text-align: center;
     padding-top: 200px;
@@ -103,4 +103,11 @@
 
 #aboutme {
     padding: 50px;
+}
+
+element.style {}
+
+.technical {
+    background: #eeeeee;
+    color: #474d5d;
 }
