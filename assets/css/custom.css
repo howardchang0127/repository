@@ -111,3 +111,15 @@ element.style {}
     background: #eeeeee;
     color: #474d5d;
 }
+
+#tech {
+    text-align: center;
+    margin: 0;
+    border: 0px;
+}
+
+.thumbnail.tech {
+    border: none;
+    text-align: center;
+    background-color: #eeeeee;
+}
